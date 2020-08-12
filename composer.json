@@ -1,0 +1,24 @@
+{
+  "name": "lihengc/validate-email",
+  "description": "validateEmail",
+  "license": "MIT",
+  "homepage": "https://github.com/LiHengc/HartCode",
+  "keywords": ["liheng", "qrcode", "qr", "code","backgroundqrcode","background"],
+  "type": "library",
+  "authors": [
+    {
+      "name": "lihengc",
+      "email": "138868082@qq.com"
+    }
+  ],
+  "require": {
+    "zytzagoo/smtp-validate-email": "^1.0",
+    "ddtraceweb/smtp-validator-email": "^2.2",
+    "egulias/email-validator": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lihengc\\ValidateEmail\\": "src/"
+    }
+  }
+}
